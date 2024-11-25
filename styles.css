@@ -1,0 +1,131 @@
+body {
+    background-color: gray;
+    margin: 0px;
+    border: solid white 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Tabela{
+    background-color: rgb(0, 53, 0);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top:solid 4px white;
+    padding-left: 10px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.jogos {
+    background-color: rgb(0, 53, 0);
+    border-bottom: solid 4px white;
+    border-top: solid 4px white;
+}
+td{
+padding-left: 20px;
+
+
+}
+
+.jogos img {
+    height: 250px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.Escalações {
+    background-color: rgb(0, 53, 0);
+    border-bottom: solid 4px white;
+    border-top: solid 4px white;
+}
+
+.Escalações img {
+    height: 250px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.Resumo-jogos{
+    background-color: rgb(0, 53, 0);
+    border-bottom: solid 4px white;
+    border-top: solid 4px white;
+    display: flex;
+    overflow-x: auto;
+}
+
+.Resumo-1 img{
+    width: 360px;
+    height: 230px;
+    padding-left: 10px;
+    opacity: 0.5;
+    border-top: solid;
+}
+
+.Resumo-1 img:hover{
+    opacity: 1.0;
+    
+}
+
+.Resumo-2 img{
+    width: 360px;
+    height: 230px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.Resumo-2 img:hover{
+    opacity: 1.0;
+}
+
+.Resumo-3 img{
+    width: 360px;
+    height: 230px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.Resumo-3 img:hover{
+    opacity: 1.0;
+}
+
+.Resumo-4 img{
+    width: 360px;
+    height: 230px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.Resumo-4 img:hover{
+    opacity: 1.0;
+}
+
+.Resumo-5 img{
+    width: 360px;
+    height: 230px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.Resumo-5 img:hover{
+    opacity: 1.0;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
