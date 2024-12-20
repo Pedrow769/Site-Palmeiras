@@ -5,25 +5,29 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Tabela{
-    background-color: rgb(0, 53, 0);
+.Tabela {
+    background-color: rgb(0, 100, 55);
     padding-bottom: 20px;
     padding-top: 20px;
-    border-top:solid 4px white;
+    border-top: solid 4px white;
     padding-left: 10px;
-    display: flex;
+    padding-right: 10px;
+
     overflow-x: auto;
 }
 
+td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .jogos {
-    background-color: rgb(0, 53, 0);
+    background-color: rgb(1, 105, 55);
     border-bottom: solid 4px white;
     border-top: solid 4px white;
-}
-td{
-padding-left: 20px;
-
-
+    overflow-x: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .jogos img {
@@ -33,9 +37,15 @@ padding-left: 20px;
 }
 
 .Escalações {
-    background-color: rgb(0, 53, 0);
+    background-color: rgb(0, 100, 55);
     border-bottom: solid 4px white;
     border-top: solid 4px white;
+    overflow-x: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+
+
 }
 
 .Escalações img {
@@ -44,72 +54,83 @@ padding-left: 20px;
     padding-left: 10px;
 }
 
-.Resumo-jogos{
-    background-color: rgb(0, 53, 0);
+.Video-jogos {
+    background-color: rgb(1, 105, 55);
     border-bottom: solid 4px white;
     border-top: solid 4px white;
     display: flex;
     overflow-x: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.Resumo-1 img{
+.Video-1 img {
     width: 360px;
     height: 230px;
     padding-left: 10px;
     opacity: 0.5;
-    border-top: solid;
+
 }
 
-.Resumo-1 img:hover{
+.Video-1 img:hover {
     opacity: 1.0;
-    
+    border: solid 5px rgb(80, 200, 120);
+    padding-left: 0px;
 }
 
-.Resumo-2 img{
-    width: 360px;
-    height: 230px;
-    padding-left: 10px;
-    opacity: 0.5;
-}
-
-.Resumo-2 img:hover{
-    opacity: 1.0;
-}
-
-.Resumo-3 img{
+.Video-2 img {
     width: 360px;
     height: 230px;
     padding-left: 10px;
     opacity: 0.5;
 }
 
-.Resumo-3 img:hover{
+.Video-2 img:hover {
     opacity: 1.0;
+    border: solid 5px rgb(80, 200, 120);
+    padding-left: 0px;
 }
 
-.Resumo-4 img{
+.Video-3 img {
     width: 360px;
     height: 230px;
     padding-left: 10px;
     opacity: 0.5;
 }
 
-.Resumo-4 img:hover{
+.Video-3 img:hover {
     opacity: 1.0;
+    border: solid 5px rgb(80, 200, 120);
+    padding-left: 0px;
 }
 
-.Resumo-5 img{
+.Video-4 img {
     width: 360px;
     height: 230px;
     padding-left: 10px;
     opacity: 0.5;
 }
 
-.Resumo-5 img:hover{
+.Video-4 img:hover {
     opacity: 1.0;
+    border: solid 5px rgb(80, 200, 120);
+    padding-left: 0px;
 }
 
-img{
+.Video-5 img {
+    width: 360px;
+    height: 230px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+
+.Video-5 img:hover {
+    opacity: 1.0;
+    border: solid 5px rgb(80, 200, 120);
+    padding-left: 0px;
+}
+
+img {
     height: 60px;
     width: 60px;
 }
@@ -122,6 +143,8 @@ h1 {
 
 h2 {
     color: rgb(0, 0, 0);
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 p {
@@ -129,3 +152,8 @@ p {
     color: rgb(0, 0, 0);
 }
 
+h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    display: block;
+}
